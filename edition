@@ -1,0 +1,102 @@
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/eYDSujH3')))()
+local Window = OrionLib:MakeWindow({Name = "Simple Sea Hub (Creator Edition)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Tamim468/releases/main/bypass.lua'))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Who-Is-E/Anti-Cheat-Bypass/main/Bypass.lua"))()
+loadstring(game:HttpGet('https://pastebin.com/raw/a3RKFm0F'))()
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+OrionLib:MakeNotification({
+	Name = "Rank",
+	Content = "You're Creator Rank",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+OrionLib:MakeNotification({
+	Name = "Breaking News",
+	Content = "Bypass Adonis Admin !",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+Tab:AddButton({
+	Name = "Simple Sea IY Version",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/UqQySHcR",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sirius Explore UI",
+	Callback = function()
+      		loadstring(game:HttpGet('https://sirius.menu/sirius'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "UNC Check",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/refs/heads/main/UNCCheckEnv.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "The rake",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "The Rake Admin Commands",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Legenda06/The-Rake-/main/Commands",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Simple Sea IY Version",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/UqQySHcR",true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "The strongest battleground",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "FE KJ Need saitama character",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gokou300/Gokou300/refs/heads/main/CAMS_KJ_SCRIPT"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "FE Gojo Need saitama character",
+	Callback = function()
+      		 loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Blox Fruit",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "1 Click Auto farm",
+	Callback = function()
+      		 loadstring(game:HttpGet("https://pastebin.com/HVKf13Xp",true))()
+  	end    
+})
+
+CoolToggle:Set(true)
