@@ -99,4 +99,3 @@ Tab:AddButton({
   	end    
 })
 
-CoolToggle:Set(true)
